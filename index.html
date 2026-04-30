@@ -3,41 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover">
-<title>María Fernanda &amp; Federico · 10 Octubre 2026</title>
+<title>Fernanda &amp; Victor · 10 Octubre 2026</title>
 <meta name="description" content="Nos casamos y queremos que estés ahí. Una celebración especial en San Martín Texmelucan — 10 de Octubre 2026">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://boda-maria-fede.vercel.app/">
-<meta property="og:title" content="María Fernanda &amp; Federico · 10 · X · MMXXVI">
+<meta property="og:url" content="https://boda-victor-fernanda.vercel.app/">
+<meta property="og:title" content="Fernanda &amp; Victor · 10 · X · MMXXVI">
 <meta property="og:description" content="Nos casamos y queremos que estés ahí. San Martín Texmelucan, Puebla — 10 Octubre 2026">
-<meta property="og:image" content="https://boda-maria-fede.vercel.app/sobre.jpg">
-<meta property="og:image:secure_url" content="https://boda-maria-fede.vercel.app/sobre.jpg">
+<meta property="og:image" content="https://boda-victor-fernanda.vercel.app/sobre.jpg">
+<meta property="og:image:secure_url" content="https://boda-victor-fernanda.vercel.app/sobre.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Invitación de boda María Fernanda y Federico">
+<meta property="og:image:alt" content="Invitación de boda Fernanda y Victor">
 <meta property="og:locale" content="es_MX">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://boda-maria-fede.vercel.app/">
-<meta name="twitter:title" content="María Fernanda &amp; Federico · 10 · X · MMXXVI">
+<meta name="twitter:url" content="https://boda-victor-fernanda.vercel.app/">
+<meta name="twitter:title" content="Fernanda &amp; Victor · 10 · X · MMXXVI">
 <meta name="twitter:description" content="Nos casamos y queremos que estés ahí. San Martín Texmelucan, Puebla — 10 Octubre 2026">
-<meta name="twitter:image" content="https://boda-maria-fede.vercel.app/sobre.jpg">
+<meta name="twitter:image" content="https://boda-victor-fernanda.vercel.app/sobre.jpg">
 <script>if('scrollRestoration' in history){history.scrollRestoration='manual';}window.scrollTo(0,0);</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Great+Vibes&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#F7FBFF;
-  --surface:#ECF4FF;
+  --bg:#FFF7F7;
+  --surface:#FCEDF0;
   --card:#FFFFFF;
-  --accent:#1B4FBF;
-  --accent2:#3D7EC9;
-  --dark:#0D2455;
-  --text:#0F1B3C;
-  --copper:#5BA8D8;
-  --copper-light:#90C8E8;
-  --blush:#D8EBFB;
-  --plum:#0A1945;
+  --accent:#B03060;
+  --accent2:#C0547A;
+  --dark:#5C1A2E;
+  --text:#3A0F1E;
+  --copper:#C0547A;
+  --copper-light:#E8A0B8;
+  --blush:#F5D0DC;
+  --plum:#3A0F1E;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{overflow-x:hidden;max-width:100vw}
@@ -218,17 +218,12 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
 /* GALERÍA */
 #galeria{padding:80px 0 100px;background:var(--bg);text-align:center;overflow:hidden}
 #galeria .eyebrow,#galeria .script-title,#galeria .section-sub{padding:0 28px}
-.drop-stage{position:relative;height:360px;margin-top:28px;overflow:visible}
-.drop-photo{position:absolute;width:112px;height:150px;background:var(--card);border-radius:3px;padding:7px 7px 30px;box-shadow:0 8px 30px rgba(13,36,85,.12);left:50%;opacity:0;will-change:transform,opacity;cursor:pointer;transition:box-shadow .3s}
-.drop-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:2px;display:block;pointer-events:none}
-.drop-photo-label{position:absolute;bottom:7px;left:0;right:0;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);text-align:center;opacity:.65}
-.drop-photo-1{margin-left:-160px;top:8px}
-.drop-photo-2{margin-left:-56px;top:115px}
-.drop-photo-3{margin-left:48px;top:4px}
-.drop-photo-4{margin-left:-160px;top:118px}
-.drop-photo-5{margin-left:-56px;top:6px}
+.drop-stage{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:0 18px;margin-top:28px;overflow:visible;position:relative}
+.drop-photo{position:relative;left:auto;width:100%;background:var(--card);border-radius:3px;padding:6px 6px 28px;box-shadow:0 8px 30px rgba(92,26,46,.12);opacity:0;will-change:transform,opacity;cursor:pointer;transition:box-shadow .3s}
+.drop-photo img{width:100%;aspect-ratio:2/3;object-fit:cover;object-position:center top;border-radius:2px;display:block;pointer-events:none}
+.drop-photo-label{position:absolute;bottom:6px;left:0;right:0;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);text-align:center;opacity:.65}
 .drop-photo.focused{z-index:10!important}
-.drop-hint{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);opacity:.5;margin-top:14px;display:block;padding:0 28px}
+.drop-hint{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);opacity:.5;margin-top:18px;display:block;padding:0 28px}
 
 /* REGALOS */
 #regalos{padding:80px 28px;background:var(--dark);text-align:center;position:relative;overflow:hidden}
@@ -305,7 +300,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
 <body>
 
 <div id="loader">
-  <div class="ld-mono" id="ldMono"><span>M</span><span>&nbsp;</span><span>&amp;</span><span>&nbsp;</span><span>F</span></div>
+  <div class="ld-mono" id="ldMono"><span>F</span><span>&nbsp;</span><span>&amp;</span><span>&nbsp;</span><span>V</span></div>
   <p class="ld-tag" id="ldTag">Nos casamos · 10 Octubre 2026</p>
 </div>
 
@@ -333,9 +328,9 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
     </div>
     <div class="hero-content">
       <span class="hero-tag rv">10 · Octubre · 2026</span>
-      <span class="hero-bride rv">María Fernanda</span>
+      <span class="hero-bride rv">Fernanda</span>
       <span class="hero-amp rv">&amp;</span>
-      <span class="hero-groom rv">Federico</span>
+      <span class="hero-groom rv">Victor</span>
       <span class="hero-date rv">San Martín Texmelucan, Pue.</span>
     </div>
     <div class="scroll-hint" id="scrollHint">
@@ -431,7 +426,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
       Amarte es el acto más sencillo y más vasto que he conocido;<br>
       en ti cabe todo lo que soy y todo lo que seré.
     </p>
-    <span class="quote-sig rv">María Fernanda &amp; Federico</span>
+    <span class="quote-sig rv">Fernanda &amp; Victor</span>
     <div class="quote-bar rv"></div>
   </section>
 
@@ -478,14 +473,14 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
     <div class="loc-panel active" id="panel-ceremonia">
       <div class="loc-card rv">
         <div class="loc-venue-name">San Lucas Atoyatenco</div>
-        <div class="loc-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Ceremonia Religiosa · Civil</div>
+        <div class="loc-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Ceremonia Religiosa</div>
         <div class="loc-info-row">
           <svg class="loc-info-icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
           <div class="loc-info-text"><strong>Av. Reforma 1164</strong>San Lucas Atoyatenco<br>74053 San Martín Texmelucan, Pue.</div>
         </div>
         <div class="loc-info-row">
           <svg class="loc-info-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <div class="loc-info-text"><strong>1:00 PM</strong> Ceremonia Religiosa &nbsp;·&nbsp; <strong>3:00 PM</strong> Ceremonia Civil</div>
+          <div class="loc-info-text"><strong>1:00 PM</strong> Ceremonia Religiosa</div>
         </div>
         <div class="map-container">
           <iframe title="Ceremonia San Lucas Atoyatenco" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
@@ -507,7 +502,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
         </div>
         <div class="loc-info-row">
           <svg class="loc-info-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <div class="loc-info-text"><strong>3:30 PM</strong> Recepción · Cena · Baile</div>
+          <div class="loc-info-text"><strong>3:00 PM</strong> Ceremonia Civil &nbsp;·&nbsp; <strong>3:30 PM</strong> Recepción · Cena · Baile</div>
         </div>
         <div class="map-container">
           <iframe title="Salón Recepción San Martín Texmelucan" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
@@ -553,7 +548,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
         <div class="itin-body">
           <div class="itin-time">3:00 PM</div>
           <div class="itin-title">Ceremonia Civil</div>
-          <div class="itin-desc">Formalización del amor ante la ley</div>
+          <div class="itin-desc">Salón · Agustín Lara 202</div>
         </div>
       </div>
       <div class="itin-card itin-entry">
@@ -564,7 +559,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
         <div class="itin-body">
           <div class="itin-time">3:30 PM</div>
           <div class="itin-title">Recepción &amp; Bienvenida</div>
-          <div class="itin-desc">Salón · Agustín Lara 202</div>
+          <div class="itin-desc">Salón · Agustín Lara 202 · por confirmar horario</div>
         </div>
       </div>
       <div class="itin-card itin-entry">
@@ -573,7 +568,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
           <div class="itin-line"></div>
         </div>
         <div class="itin-body">
-          <div class="itin-time">Tarde · Noche</div>
+          <div class="itin-time">Por confirmar horario</div>
           <div class="itin-title">Cena &amp; Brindis</div>
           <div class="itin-desc">Menú especial · palabras de los novios</div>
         </div>
@@ -584,7 +579,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
           <div class="itin-line"></div>
         </div>
         <div class="itin-body">
-          <div class="itin-time">Noche</div>
+          <div class="itin-time">Por confirmar horario</div>
           <div class="itin-title">Vals &amp; Primer Baile</div>
           <div class="itin-desc">El momento más romántico de la velada</div>
         </div>
@@ -602,71 +597,35 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
     </div>
   </section>
 
-  <!-- DRESS CODE -->
-  <section id="dresscode" class="sec">
-    <p class="eyebrow rv">Etiqueta</p>
-    <h2 class="script-title rv">Dress Code</h2>
-    <p class="dc-subtitle rv">Semi-Formal · Tarde de Octubre</p>
-    <p class="dc-note rv">Luzcan espléndidos para celebrar este amor</p>
-    <div class="dc-cols">
-      <div class="dc-col rv">
-        <div class="dc-col-ttl">Ellas</div>
-        <ul class="dc-list">
-          <li>Vestido cóctel o largo</li>
-          <li>Colores libres y vibrantes</li>
-          <li>Tacón o sandalia elegante</li>
-        </ul>
-      </div>
-      <div class="dc-col rv">
-        <div class="dc-col-ttl">Ellos</div>
-        <ul class="dc-list">
-          <li>Traje o saco elegante</li>
-          <li>Corbata opcional</li>
-          <li>Camisa fina</li>
-          <li>Zapato de vestir</li>
-        </ul>
-      </div>
-    </div>
-    <div class="dc-swatches" id="dcSwatches">
-      <div class="dc-sw"><div class="dc-sw-c" style="background:#9B4F68"></div><span class="dc-sw-n">Rosa</span></div>
-      <div class="dc-sw"><div class="dc-sw-c" style="background:#5C8A6E"></div><span class="dc-sw-n">Verde Salvia</span></div>
-      <div class="dc-sw"><div class="dc-sw-c" style="background:#5BA8D8"></div><span class="dc-sw-n">Terracota</span></div>
-      <div class="dc-sw"><div class="dc-sw-c" style="background:#8B7355"></div><span class="dc-sw-n">Beige</span></div>
-      <div class="dc-sw"><div class="dc-sw-c" style="background:#5C2A3C"></div><span class="dc-sw-n">Vino</span></div>
-      <div class="dc-sw"><div class="dc-sw-c" style="background:#4A5568"></div><span class="dc-sw-n">Gris</span></div>
-    </div>
-    <p class="dc-avoid rv">Evitar: Blanco · Azul Cielo · Azul Rey</p>
-    <div class="no-kids rv">
-      <svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a7 7 0 0 1 13 0"/><line x1="18" y1="3" x2="21" y2="6"/><line x1="21" y1="3" x2="18" y2="6"/></svg>
-      <span>Celebración exclusiva para adultos. Agradecemos su comprensión.</span>
-    </div>
-  </section>
-
   <!-- GALERÍA -->
   <section id="galeria">
     <p class="eyebrow rv">Nosotros</p>
     <h2 class="script-title rv">Nuestra Historia</h2>
     <p class="section-sub rv">Momentos que nos trajeron hasta aquí</p>
     <div class="drop-stage" id="dropStage">
-      <div class="drop-photo drop-photo-1" id="dropP1">
-        <img src="foto1.jpg" alt="María Fernanda &amp; Federico">
+      <div class="drop-photo" id="dropP1">
+        <img src="foto1.jpg" alt="Fernanda &amp; Victor">
         <span class="drop-photo-label">Nuestro primer viaje</span>
       </div>
-      <div class="drop-photo drop-photo-2" id="dropP2">
-        <img src="foto2.jpg" alt="María Fernanda &amp; Federico">
+      <div class="drop-photo" id="dropP2">
+        <img src="foto2.jpg" alt="Fernanda &amp; Victor">
         <span class="drop-photo-label">El día que dijimos sí</span>
       </div>
-      <div class="drop-photo drop-photo-3" id="dropP3">
-        <img src="foto3.jpg" alt="María Fernanda &amp; Federico">
+      <div class="drop-photo" id="dropP3">
+        <img src="foto3.jpg" alt="Fernanda &amp; Victor">
         <span class="drop-photo-label">Para siempre</span>
       </div>
-      <div class="drop-photo drop-photo-4" id="dropP4">
-        <img src="foto4.jpg" alt="María Fernanda &amp; Federico">
+      <div class="drop-photo" id="dropP4">
+        <img src="foto4.jpg" alt="Fernanda &amp; Victor">
         <span class="drop-photo-label">Juntos siempre</span>
       </div>
-      <div class="drop-photo drop-photo-5" id="dropP5">
-        <img src="foto5.jpg" alt="María Fernanda &amp; Federico">
+      <div class="drop-photo" id="dropP5">
+        <img src="foto5.jpg" alt="Fernanda &amp; Victor">
         <span class="drop-photo-label">Nuestra historia</span>
+      </div>
+      <div class="drop-photo" id="dropP6">
+        <img src="foto6.jpg" alt="Fernanda &amp; Victor">
+        <span class="drop-photo-label">Nuestro amor</span>
       </div>
     </div>
     <span class="drop-hint rv" id="dropHint">Toca cada foto para enfocarla</span>
@@ -700,46 +659,6 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
     </div>
   </section>
 
-  <!-- RSVP -->
-  <section id="rsvp" class="sec">
-    <p class="eyebrow rv">Confirma tu Asistencia</p>
-    <h2 class="script-title rv">R.S.V.P.</h2>
-    <span class="rsvp-deadline rv">Fecha límite: próximamente</span>
-    <div class="rsvp-card rv">
-      <div class="rsvp-field">
-        <label for="rsvpName">Nombre completo</label>
-        <input type="text" id="rsvpName" placeholder="Tu nombre completo" autocomplete="name">
-      </div>
-      <div class="rsvp-field">
-        <label>¿Asistirás?</label>
-        <div class="rsvp-toggle">
-          <button class="rsvp-toggle-btn" id="btnYes" onclick="selectAttend('yes')">Sí, ahí estaré</button>
-          <button class="rsvp-toggle-btn" id="btnNo" onclick="selectAttend('no')">No podré ir</button>
-        </div>
-        <input type="hidden" id="rsvpAttend" value="">
-      </div>
-      <div class="rsvp-field">
-        <label for="rsvpDiet">Restricción alimentaria</label>
-        <select id="rsvpDiet">
-          <option value="Ninguna">Ninguna</option>
-          <option value="Vegetariano">Vegetariano</option>
-          <option value="Vegano">Vegano</option>
-          <option value="Sin gluten">Sin gluten</option>
-          <option value="Otra">Otra</option>
-        </select>
-      </div>
-      <div class="rsvp-divider"></div>
-      <div class="rsvp-field">
-        <label for="rsvpMsg">Mensaje para los novios</label>
-        <textarea id="rsvpMsg" placeholder="Escribe algo especial para María Fernanda &amp; Federico…"></textarea>
-      </div>
-      <button class="btn-wa" onclick="sendRsvp()">
-        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.165-.008-.35-.01-.534-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.559 4.122 1.535 5.858L0 24l6.335-1.513A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.795 9.795 0 0 1-5.003-1.374l-.359-.213-3.724.889.923-3.614-.234-.373A9.773 9.773 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
-        Confirmar por WhatsApp
-      </button>
-    </div>
-  </section>
-
   <!-- FOOTER -->
   <footer id="footer">
     <div class="footer-deco rv">
@@ -750,7 +669,7 @@ body{background:var(--bg);color:var(--text);font-family:'Jost',sans-serif;font-w
         <circle cx="90" cy="48" r="3" fill="#5BA8D8"/>
       </svg>
     </div>
-    <div class="footer-names rv">María Fernanda &amp; Federico</div>
+    <div class="footer-names rv">Fernanda &amp; Victor</div>
     <div class="footer-date rv">10 · Octubre · MMXXVI</div>
     <div class="footer-hr"></div>
     <a href="https://www.instagram.com/elysium.invitaciones" target="_blank" rel="noopener" class="footer-credit rv">@elysium.invitaciones</a>
@@ -834,13 +753,6 @@ document.querySelectorAll('.loc-tab').forEach(tab=>{
   });
 });
 
-let attendValue='';
-function selectAttend(val){
-  attendValue=val;
-  document.getElementById('btnYes').className='rsvp-toggle-btn'+(val==='yes'?' selected-yes':'');
-  document.getElementById('btnNo').className='rsvp-toggle-btn'+(val==='no'?' selected-no':'');
-  document.getElementById('rsvpAttend').value=val==='yes'?'Sí, con gusto':'Lo siento, no podré';
-}
 function showToast(){const t=document.getElementById('copyToast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000);}
 
 (function(){
@@ -851,14 +763,6 @@ function showToast(){const t=document.getElementById('copyToast');t.classList.ad
   fab.addEventListener('click',e=>{e.stopPropagation();if(audio.paused){audio.play().then(()=>fab.classList.add('playing')).catch(()=>{});}else{audio.pause();fab.classList.remove('playing');}});
 })();
 
-function sendRsvp(){
-  const name=document.getElementById('rsvpName').value.trim()||'(sin nombre)',
-        attend=document.getElementById('rsvpAttend').value||'Sin respuesta',
-        diet=document.getElementById('rsvpDiet').value,
-        message=document.getElementById('rsvpMsg').value.trim()||'—';
-  const text=['¡Hola! Confirmación de asistencia a la boda de María Fernanda y Federico 💕','',`*Nombre:* ${name}`,`*Asistencia:* ${attend}`,`*Dieta:* ${diet}`,`*Mensaje:* ${message}`].join('\n');
-  window.open('https://wa.me/52XXXXXXXXXX?text='+encodeURIComponent(text),'_blank');
-}
 
 function initAll(){
   document.querySelectorAll('.rv').forEach(el=>{
@@ -893,11 +797,6 @@ function initAll(){
       scrollTrigger:{trigger:'#itinCards',start:'top 85%',toggleActions:'play none none none'}});
   });
 
-  document.querySelectorAll('#dcSwatches .dc-sw-c').forEach((el,i)=>{
-    gsap.fromTo(el,{scale:0,opacity:0},{scale:1,opacity:1,duration:.4,ease:'back.out(2)',delay:i*.09,
-      scrollTrigger:{trigger:'#dcSwatches',start:'top 88%',toggleActions:'play none none none'}});
-  });
-
   document.querySelectorAll('.gift-option').forEach((el,i)=>{
     gsap.fromTo(el,{y:28,opacity:0},{y:0,opacity:1,duration:.7,ease:'power3.out',delay:i*.2,
       scrollTrigger:{trigger:'#regalos',start:'top 85%',toggleActions:'play none none none'}});
@@ -905,39 +804,29 @@ function initAll(){
 
   /* ── GALERÍA: FOTOS QUE CAEN ── */
   (function(){
-    const finalRotations=[-6,3,-5,4,-2];
-    const finalOffsets=[0,0,0,0,0];
+    const finalRotations=[-4,2,-3,3,-2,4];
     const photos=[
-      {el:document.getElementById('dropP1'),rot:finalRotations[0],ox:finalOffsets[0]},
-      {el:document.getElementById('dropP2'),rot:finalRotations[1],ox:finalOffsets[1]},
-      {el:document.getElementById('dropP3'),rot:finalRotations[2],ox:finalOffsets[2]},
-      {el:document.getElementById('dropP4'),rot:finalRotations[3],ox:finalOffsets[3]},
-      {el:document.getElementById('dropP5'),rot:finalRotations[4],ox:finalOffsets[4]},
+      {el:document.getElementById('dropP1'),rot:finalRotations[0]},
+      {el:document.getElementById('dropP2'),rot:finalRotations[1]},
+      {el:document.getElementById('dropP3'),rot:finalRotations[2]},
+      {el:document.getElementById('dropP4'),rot:finalRotations[3]},
+      {el:document.getElementById('dropP5'),rot:finalRotations[4]},
+      {el:document.getElementById('dropP6'),rot:finalRotations[5]},
     ];
 
     ScrollTrigger.create({
-      trigger:'#dropStage',start:'top 75%',once:true,
+      trigger:'#dropStage',start:'top 80%',once:true,
       onEnter(){
         photos.forEach((p,i)=>{
-          gsap.set(p.el,{
-            y:-(window.innerHeight*0.75+200),
-            x:p.ox,
-            rotation:p.rot+(i%2===0?35:-30),
-            opacity:1,
-            zIndex:i+1,
-          });
+          gsap.set(p.el,{y:-180,rotation:p.rot+(i%2===0?25:-20),opacity:0});
           gsap.to(p.el,{
-            y:0,
-            x:p.ox,
-            rotation:p.rot,
-            duration:1.2+i*0.05,
-            ease:'power2.in',
-            delay:i*0.6,
+            y:0,rotation:p.rot,opacity:1,
+            duration:.9,ease:'power3.out',
+            delay:i*0.12,
             onComplete(){
-              gsap.to(p.el,{y:-10,rotation:p.rot*0.6,duration:.15,ease:'power1.out',
-                onComplete(){gsap.to(p.el,{y:0,rotation:p.rot,duration:.2,ease:'power2.inOut'});}
+              gsap.to(p.el,{y:-6,rotation:p.rot*.5,duration:.12,ease:'power1.out',
+                onComplete(){gsap.to(p.el,{y:0,rotation:p.rot,duration:.18,ease:'power2.inOut'});}
               });
-              gsap.to(p.el,{boxShadow:`0 ${28+i*6}px ${70+i*10}px rgba(13,36,85,.3)`,duration:.25});
             }
           });
         });
@@ -953,7 +842,7 @@ function initAll(){
         });
         if(!focused){
           p.el.classList.add('focused');
-          gsap.to(p.el,{scale:1.1,zIndex:10,duration:.35,ease:'back.out(1.5)'});
+          gsap.to(p.el,{scale:1.08,zIndex:10,duration:.35,ease:'back.out(1.5)'});
         }
       });
     });
